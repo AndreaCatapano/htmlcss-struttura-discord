@@ -32,10 +32,15 @@
 
 .debug .flexbox-5-elements{
     height: 500px;
+    background-color:#f08080;
 }
 
 .debug #flex-width-block{
     width: 360px;
+}
+
+.debug .flexbox-4-elements{
+    background-color: #20b2aa;
 }
 
 /*General*/
@@ -111,18 +116,38 @@ header{
 #black-container{
     background-color:#23272a;
     padding: 15px 0 40px;
+    margin-bottom: 1px;
 }
 
 .flexbox-5-elements{
-    background-color:#f08080 ;
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
 }
 
 .flexbox-4-elements{
-    background-color: #20b2aa;
     flex-grow: 1;
     display: flex;
     justify-content: space-around;
+}
+
+
+/*Main: footer*/
+
+footer{
+    background-color:#23272a;
+    padding-top: 20px;
+}
+
+.flexbox-footer{
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.flexitem-footer{
+    background-color: #ffb6c1;
+    padding: 5px;
 }
