@@ -19,7 +19,25 @@
 
 .debug #item-green{
     height: 900px;
+    background-color: #228b22;
 }
+
+.debug .flexitem-big{
+    background-color: #1e90ff;
+}
+
+.debug .flexitem-small{
+    background-color: #ffc0cb;
+}
+
+.debug .flexbox-5-elements{
+    height: 500px;
+}
+
+.debug #flex-width-block{
+    width: 360px;
+}
+
 /*General*/
 
 .mpb-default{
@@ -56,17 +74,21 @@ header{
     padding: 30px 0 ;
 }
 
+/*Main: Main-Section*/
+
 .main-section {
     background-color: #ffffff;
+}
+
+.main-section .main-container:nth-of-type(even){
+    background-color: #d3d3d3;
 }
 
 .main-container {
     padding: 30px 0;
 }
 
-.main-section .main-container:nth-of-type(even){
-    background-color: #d3d3d3;
-}
+/*Main: flexbox-2-elements*/
 
 .flexbox-2-elements{
     display: flex;
@@ -76,17 +98,31 @@ header{
     flex-direction: row-reverse;
 }
 
-.flexitem-blue{
-    background-color: #1e90ff;
+.flexitem-big{
     flex-grow: 2;
 }
 
-.flexitem-pink{
-    background-color: #ffc0cb;
+.flexitem-small{
     flex-grow: 1;
 }
 
-#item-green {
-    background-color: #228b22;
+/*Main: multi-flexbox*/
+
+#black-container{
+    background-color:#23272a;
+    padding: 15px 0 40px;
 }
 
+.flexbox-5-elements{
+    background-color:#f08080 ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox-4-elements{
+    background-color: #20b2aa;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+}
