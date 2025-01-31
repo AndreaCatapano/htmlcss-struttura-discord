@@ -13,6 +13,13 @@
     background-color: #ee82ee;
 }
 
+.debug .flexbox-2-elements{
+    height: 500px;
+}
+
+.debug #item-green{
+    height: 900px;
+}
 /*General*/
 
 .mpb-default{
@@ -47,5 +54,39 @@ header{
 .blue-container{
     background-color:#00008b;
     padding: 30px 0 ;
+}
+
+.main-section {
+    background-color: #ffffff;
+}
+
+.main-container {
+    padding: 30px 0;
+}
+
+.main-section .main-container:nth-of-type(even){
+    background-color: #d3d3d3;
+}
+
+.flexbox-2-elements{
+    display: flex;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.flexitem-blue{
+    background-color: #1e90ff;
+    flex-grow: 2;
+}
+
+.flexitem-pink{
+    background-color: #ffc0cb;
+    flex-grow: 1;
+}
+
+#item-green {
+    background-color: #228b22;
 }
 
