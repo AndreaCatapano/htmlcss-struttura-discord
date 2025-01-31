@@ -1,3 +1,40 @@
-body{
-    background-color: red;
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/*Debug*/
+
+
+/*General*/
+
+.mpb-default{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Header*/
+
+header{
+    background-color:#add8e6;
+    padding: 15px;
+}
+
+.header-flexbox{
+    background-color: #daa520;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
